@@ -8,4 +8,4 @@ dirmanager_sources = [
 
 gtk = dependency('gtkmm-4.0', method: 'pkg-config')
 
-executable('Explorer', ['main.cpp'] + dirmanager_sources, dependencies : [gtk], include_directories: ['.', './lib/'])
+executable('Voyager', ['main.cpp'] + dirmanager_sources, dependencies: [gtk], include_directories: ['.', './lib/'])

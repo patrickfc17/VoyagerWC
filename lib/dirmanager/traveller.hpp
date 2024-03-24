@@ -9,7 +9,8 @@ using std::filesystem::is_directory;
 using std::string;
 using std::vector;
 
-namespace DirectoryManager {
+namespace DirectoryManager
+{
     vector<string> travel_subpaths(const path base_path);
     vector<string> get_files(const path base_path);
     vector<string> get_current_directories(const path current);
