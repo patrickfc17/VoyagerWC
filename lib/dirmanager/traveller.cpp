@@ -1,5 +1,13 @@
 #include <iostream>
+#include <string>
+
 #include "traveller.hpp"
+
+using std::filesystem::path;
+using std::filesystem::directory_iterator;
+using std::filesystem::is_directory;
+using std::string;
+using std::vector;
 
 namespace DirectoryManager
 {
