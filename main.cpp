@@ -7,6 +7,8 @@
 using Gtk::Window;
 using Gtk::Application;
 
+using std::filesystem::path;
+
 class AppMainWindow : public Window
 {
 public:
