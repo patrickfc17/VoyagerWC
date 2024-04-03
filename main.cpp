@@ -16,7 +16,6 @@ using std::chrono::milliseconds;
 
 using std::filesystem::path;
 
-
 int main(int argc, char* argv[])
 {
     auto app = Application::create("org.gtkmm.examples.base");
